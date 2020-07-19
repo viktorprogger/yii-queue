@@ -15,5 +15,5 @@ namespace Yiisoft\Yii\Queue\Job;
  */
 interface JobInterface
 {
-    public function execute();
+    public function execute(): void;
 }
